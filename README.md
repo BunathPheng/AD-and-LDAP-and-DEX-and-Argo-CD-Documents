@@ -9,9 +9,20 @@ Practical documentation explaining how enterprise authentication works with:
 | Path | Description |
 |---|---|
 | `docs/full-lesson.md` | Beginner-to-production lesson |
+| `docs/production-diagrams.md` | Final production diagram + login sequence |
 | `assets/` | Architecture and concept diagrams |
 
-## Diagrams
+## Main reference diagrams
+
+Use this file when you need the real production flow:
+
+- [`docs/production-diagrams.md`](docs/production-diagrams.md)
+
+It includes:
+1. Production-style authentication sequence
+2. Final comprehensive production diagram
+
+## Image diagrams
 
 1. `assets/architecture-flow.png` — overall identity architecture
 2. `assets/why-dex-is-needed.png` — why DEX sits between Argo CD and AD
